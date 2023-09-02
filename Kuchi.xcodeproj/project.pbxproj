@@ -15,6 +15,14 @@
 		87F9C1DE2AA3945B00C962D9 /* jp.json in Resources */ = {isa = PBXBuildFile; fileRef = 87F9C1DB2AA3945B00C962D9 /* jp.json */; };
 		87F9C1E12AA394CD00C962D9 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1E02AA394CD00C962D9 /* WelcomeView.swift */; };
 		87F9C1E32AA39BC200C962D9 /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1E22AA39BC200C962D9 /* HorizontallyAlignedLabelStyle.swift */; };
+		87F9C1E62AA39DD500C962D9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1E52AA39DD500C962D9 /* Profile.swift */; };
+		87F9C1E82AA39DDC00C962D9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1E72AA39DDC00C962D9 /* Settings.swift */; };
+		87F9C1EA2AA39DEF00C962D9 /* UserManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1E92AA39DEF00C962D9 /* UserManagement.swift */; };
+		87F9C1ED2AA39E9400C962D9 /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1EC2AA39E9400C962D9 /* WelcomeBackgroundImage.swift */; };
+		87F9C1EF2AA39EDB00C962D9 /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1EE2AA39EDB00C962D9 /* LogoImage.swift */; };
+		87F9C1F12AA39EFF00C962D9 /* WelcomeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1F02AA39EFF00C962D9 /* WelcomeMessageView.swift */; };
+		87F9C1F32AA39F4800C962D9 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1F22AA39F4800C962D9 /* RegisterView.swift */; };
+		87F9C1F52AA3A3F200C962D9 /* BorderedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1F42AA3A3F200C962D9 /* BorderedViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +35,14 @@
 		87F9C1DB2AA3945B00C962D9 /* jp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jp.json; sourceTree = "<group>"; };
 		87F9C1E02AA394CD00C962D9 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		87F9C1E22AA39BC200C962D9 /* HorizontallyAlignedLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontallyAlignedLabelStyle.swift; sourceTree = "<group>"; };
+		87F9C1E52AA39DD500C962D9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		87F9C1E72AA39DDC00C962D9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		87F9C1E92AA39DEF00C962D9 /* UserManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagement.swift; sourceTree = "<group>"; };
+		87F9C1EC2AA39E9400C962D9 /* WelcomeBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackgroundImage.swift; sourceTree = "<group>"; };
+		87F9C1EE2AA39EDB00C962D9 /* LogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+		87F9C1F02AA39EFF00C962D9 /* WelcomeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMessageView.swift; sourceTree = "<group>"; };
+		87F9C1F22AA39F4800C962D9 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		87F9C1F42AA3A3F200C962D9 /* BorderedViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,7 @@
 			children = (
 				87F9C1C52AA3942800C962D9 /* KuchiApp.swift */,
 				87F9C1DF2AA394B500C962D9 /* Welcome */,
+				87F9C1E42AA39DC400C962D9 /* Profile */,
 				87F9C1D32AA3944500C962D9 /* HomeView.swift */,
 				87F9C1D72AA3945B00C962D9 /* Resources */,
 				87F9C1CB2AA3942900C962D9 /* Preview Content */,
@@ -97,10 +114,33 @@
 		87F9C1DF2AA394B500C962D9 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				87F9C1EB2AA39E8200C962D9 /* Components */,
 				87F9C1E02AA394CD00C962D9 /* WelcomeView.swift */,
+				87F9C1F22AA39F4800C962D9 /* RegisterView.swift */,
 				87F9C1E22AA39BC200C962D9 /* HorizontallyAlignedLabelStyle.swift */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		87F9C1E42AA39DC400C962D9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				87F9C1E52AA39DD500C962D9 /* Profile.swift */,
+				87F9C1E72AA39DDC00C962D9 /* Settings.swift */,
+				87F9C1E92AA39DEF00C962D9 /* UserManagement.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		87F9C1EB2AA39E8200C962D9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				87F9C1EC2AA39E9400C962D9 /* WelcomeBackgroundImage.swift */,
+				87F9C1F02AA39EFF00C962D9 /* WelcomeMessageView.swift */,
+				87F9C1EE2AA39EDB00C962D9 /* LogoImage.swift */,
+				87F9C1F42AA3A3F200C962D9 /* BorderedViewModifier.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +215,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F9C1F32AA39F4800C962D9 /* RegisterView.swift in Sources */,
 				87F9C1D42AA3944500C962D9 /* HomeView.swift in Sources */,
+				87F9C1F52AA3A3F200C962D9 /* BorderedViewModifier.swift in Sources */,
+				87F9C1E62AA39DD500C962D9 /* Profile.swift in Sources */,
+				87F9C1E82AA39DDC00C962D9 /* Settings.swift in Sources */,
+				87F9C1F12AA39EFF00C962D9 /* WelcomeMessageView.swift in Sources */,
+				87F9C1EF2AA39EDB00C962D9 /* LogoImage.swift in Sources */,
+				87F9C1EA2AA39DEF00C962D9 /* UserManagement.swift in Sources */,
 				87F9C1E12AA394CD00C962D9 /* WelcomeView.swift in Sources */,
 				87F9C1E32AA39BC200C962D9 /* HorizontallyAlignedLabelStyle.swift in Sources */,
+				87F9C1ED2AA39E9400C962D9 /* WelcomeBackgroundImage.swift in Sources */,
 				87F9C1C62AA3942800C962D9 /* KuchiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
