@@ -9,15 +9,18 @@ import SwiftUI
 
 struct RegisterView: View {
     
-    @State var name: String = ""
+    
+    @FocusState var nameFieldFocused: Bool
+    @State var userManager = UserManager()
     
     var body: some View {
         VStack {
             Spacer()
             WelcomeMessageView()
-            TextField("Type your name...", text: $name)
+            TextField("Type your name...", text: $userManager.profile.name)
+                .focused($nameFieldFocused)
+                .submitLabel(.done)
                 .bordered()
-            
             Spacer()
         }
         .padding()
