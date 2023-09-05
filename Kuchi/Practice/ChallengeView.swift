@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ChallengeView: View {
     var body: some View {
-        Text("Hello World!")
+        HStack {
+            Text("A great and warm welcome to Kuchi")
+                .background(Color.red)
+            Text("A great and warm welcome to Kuchi")
+                .background(Color.red)
+        }
+        .background(Color.yellow)
     }
 }
 
