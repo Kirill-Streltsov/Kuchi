@@ -109,6 +109,8 @@
 			children = (
 				87F9C1C52AA3942800C962D9 /* KuchiApp.swift */,
 				87F9C1DF2AA394B500C962D9 /* Welcome */,
+				87D3E6002AA7B48500CC37E0 /* HistoryView.swift */,
+				87D3E6012AA7B48500CC37E0 /* StarterView.swift */,
 				87D3E5F12AA7B40E00CC37E0 /* Practice */,
 				87F9C1E42AA39DC400C962D9 /* Profile */,
 				87F9C1D32AA3944500C962D9 /* HomeView.swift */,
@@ -151,8 +153,6 @@
 				87F9C1E02AA394CD00C962D9 /* WelcomeView.swift */,
 				87F9C1F22AA39F4800C962D9 /* RegisterView.swift */,
 				87F9C1E22AA39BC200C962D9 /* HorizontallyAlignedLabelStyle.swift */,
-				87D3E6002AA7B48500CC37E0 /* HistoryView.swift */,
-				87D3E6012AA7B48500CC37E0 /* StarterView.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
