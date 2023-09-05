@@ -85,7 +85,15 @@ struct HistoryView: View {
     }
     
     var body: some View {
-        EmptyView()
+        ScrollView {
+            LazyVStack(pinnedViews: [.sectionHeaders]) {
+                Section(header: header) {
+                    ForEach(history, id: \.self) { element in
+                        getElement(element)
+                    }
+                }
+            }
+        }
     }
 }
 
