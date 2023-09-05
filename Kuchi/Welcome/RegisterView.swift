@@ -9,7 +9,6 @@ import SwiftUI
 
 struct RegisterView: View {
     
-    
     @FocusState var nameFieldFocused: Bool
     @EnvironmentObject var userManager: UserManager
     

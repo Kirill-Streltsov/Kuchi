@@ -16,6 +16,7 @@
 		87D3E5FF2AA7B40E00CC37E0 /* ChoicesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3E5F82AA7B40E00CC37E0 /* ChoicesRow.swift */; };
 		87D3E6022AA7B48500CC37E0 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3E6002AA7B48500CC37E0 /* HistoryView.swift */; };
 		87D3E6032AA7B48500CC37E0 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3E6012AA7B48500CC37E0 /* StarterView.swift */; };
+		87D3E6052AA7CC2A00CC37E0 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3E6042AA7CC2A00CC37E0 /* ScoreView.swift */; };
 		87F9C1C62AA3942800C962D9 /* KuchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1C52AA3942800C962D9 /* KuchiApp.swift */; };
 		87F9C1CD2AA3942900C962D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F9C1CC2AA3942900C962D9 /* Preview Assets.xcassets */; };
 		87F9C1D42AA3944500C962D9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C1D32AA3944500C962D9 /* HomeView.swift */; };
@@ -44,6 +45,7 @@
 		87D3E5F82AA7B40E00CC37E0 /* ChoicesRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesRow.swift; sourceTree = "<group>"; };
 		87D3E6002AA7B48500CC37E0 /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		87D3E6012AA7B48500CC37E0 /* StarterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		87D3E6042AA7CC2A00CC37E0 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		87F9C1C22AA3942800C962D9 /* Kuchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F9C1C52AA3942800C962D9 /* KuchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuchiApp.swift; sourceTree = "<group>"; };
 		87F9C1CC2AA3942900C962D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				87D3E5F22AA7B40E00CC37E0 /* ChoicesView.swift */,
 				87D3E5F32AA7B40E00CC37E0 /* QuestionView.swift */,
+				87D3E6042AA7CC2A00CC37E0 /* ScoreView.swift */,
 				87D3E5F42AA7B40E00CC37E0 /* CongratulationsView.swift */,
 				87D3E5F52AA7B40E00CC37E0 /* ChallengesViewModel.swift */,
 				87D3E5F62AA7B40E00CC37E0 /* PracticeView.swift */,
@@ -257,6 +260,7 @@
 				87F9C1E62AA39DD500C962D9 /* Profile.swift in Sources */,
 				87F9C1E82AA39DDC00C962D9 /* Settings.swift in Sources */,
 				87F9C1F12AA39EFF00C962D9 /* WelcomeMessageView.swift in Sources */,
+				87D3E6052AA7CC2A00CC37E0 /* ScoreView.swift in Sources */,
 				87D3E5FC2AA7B40E00CC37E0 /* ChallengesViewModel.swift in Sources */,
 				87F9C1EF2AA39EDB00C962D9 /* LogoImage.swift in Sources */,
 				87F9C1EA2AA39DEF00C962D9 /* UserManagement.swift in Sources */,
