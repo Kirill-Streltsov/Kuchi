@@ -20,10 +20,11 @@ struct CongratulationsView: View {
     
     var body: some View {
         VStack {
+            Spacer()
             Text("Congratulations!")
                 .font(.title)
                 .foregroundColor(.gray)
-            ZStack { // 2
+            ZStack {
                 VStack(spacing: 0) {
                     Rectangle()
                         .frame(height: 90)
@@ -48,12 +49,16 @@ struct CongratulationsView: View {
                         .foregroundColor(.white)
                         .fontWeight(.bold)
                         .shadow(radius: 7)
+                    
                 }
-                .padding() }
+                .padding()
+                
+            }
             .frame(height: 180)
             Text("You’re awesome!")
                 .fontWeight(.bold)
                 .foregroundColor(.gray)
+            Spacer()
             Button(action: {
                 challengesViewModel.restart()
             }, label: {
