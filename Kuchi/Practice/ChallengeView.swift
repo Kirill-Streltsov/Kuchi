@@ -10,20 +10,22 @@ import SwiftUI
 struct ChallengeView: View {
     
     let challengeTest: ChallengeTest
+    @ObservedObject var challengesViewModel = ChallengesViewModel()
     @State var showAnswers = false
     
     var body: some View {
         VStack {
             Button(action: {
                 showAnswers.toggle()
+                challengesViewModel.generateRandomChallenge()
             }) {
-                QuestionView(question: challengeTest.challenge.question)
+                QuestionView(question: challengesViewModel.currentChallenge!.challenge.question)
                     .frame(height: 300)
             }
             ScoreView(numberOfQuestions: 5)
             if showAnswers {
                 Divider()
-                ChoicesView(challengeTest: challengeTest)
+                ChoicesView(challengeTest: challengesViewModel.currentChallenge!)
                     .frame(height: 300)
                 .padding() }
         }
